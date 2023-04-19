@@ -1,0 +1,178 @@
+/* 
+                                            ESTO ES PAGIA PRINCIPALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+                    /* paginna principal asassd*/ 
+                  
+}
+.colornav{
+   background-color: rgb(231, 199, 109);
+   color: white;
+}
+.principal{
+   background-color: rgb(2, 2, 2);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.galeria{
+   width: 77%;
+   padding-bottom: 20px;
+}
+.carousel-item{
+   height: 100vh;
+}
+.carousel-item{
+   height: 100%;
+   object-fit: cover;
+}
+
+.titulo{
+   text-align: center;
+   background-color: rgb(2, 2, 2);
+   color: white;
+   padding-top: 20px;
+}
+.card{
+   height: 100%;
+   width: 100%;
+}
+/*             aca nnosotrossss    */
+
+.principall{
+   background-color: black;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.textonosotros{
+   height: 100%;
+}
+.texto-de-nosotros{
+   color: white;
+}
+.h1nosotros{
+   text-align: center;
+}
+
+.imagennosotros{
+   height: 50%;
+   background-position: center;
+   background-size: cover;
+   background-image: url(../assets/img/imagen\ para\ contacto.jpg);
+   margin-top: 200px;
+}
+.altonosotros{
+   height: 70vh;
+}
+.colornosotros{
+   background-color: black;
+}
+/*             aca contacto    */
+.principalll{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   padding-bottom: 20px;
+
+}.imagendefondocontacto{
+   min-height: 100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548) ),
+    url(../assets/img/imagen\ pizza.jpg);
+   align-content: center;
+}
+/*          aca sucursal*/
+.sucursales-h1{
+   text-align: center;
+   padding-top: 20px;
+}
+.sucursal-div{
+   padding-top: 10px;
+   text-align: center;
+}
+.fondosucursales{
+   background-color: rgba(218, 195, 153, 0.904);
+}
+.ubicacionsucursal{
+   text-align: center;
+}
+.sucursal-texto{
+   text-align: center;
+}
+ 
+.mapa{
+   padding: 30px;
+text-align: center;
+}
+/* estto es productto*/
+
+.producto-h1{
+   text-align: center;
+   padding-top: 15px;
+   background-color: rgb(230, 4, 4);
+}
+.producto-h2{
+   text-align: center;
+   padding-top: 10px;
+   background-color: rgb(37, 209, 143);
+}
+.divcomida{
+   list-style: none;
+   padding-top: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+}
+.producto-h3{
+   text-align: center;
+   padding-top: 10px;
+}
+
+.texto-de-empanadas{
+   text-align: center;
+   padding-top: 20px;
+   color: chocolate;
+}
+.pruebaa{
+   height:100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548) ),
+    url(../assets/img/imagen\ pizza.jpg);
+   
+}
+
+.letras{
+   height:100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548) ),
+    url(../assets/img/maderaas.jpg);
+   
+}
+.main-producto{
+   background-color: rgb(22, 22, 22);
+}
+.letra-lista{
+   color: white;
+}
+.color{
+   color: rgb(240, 36, 36);
+}
+
+
+             /*                                             DIV     DE     EMPANADAS                      
+
+
+                                        /*foooter y header*/
+
+footer{
+   text-align: center;
+   justify-content: center;
+}

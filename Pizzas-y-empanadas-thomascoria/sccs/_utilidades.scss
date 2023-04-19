@@ -1,0 +1,139 @@
+                       /* estto es productto*/
+ .producto-h1{
+   text-align: map-get($producto, text);
+   padding-top: map-get($producto, pading);
+   background-color: map-get($producto, color);
+}
+.producto-h2{
+   text-align: $texto-centrado;
+   padding-top: 10px;
+   background-color: $color-aquaH2;
+}
+.divcomida{
+   list-style: none;
+   padding-top: 10px;
+   display: $display-flex;
+   justify-content: $justify-space-around;
+   align-items: $align-item-center;
+   text-align: $texto-centrado;
+}
+.producto-h3{
+   text-align: $texto-centrado;
+   padding-top: 10px;
+}
+
+.texto-de-empanadas{
+   text-align: $texto-centrado;
+   padding-top: 20px;
+   color:$color-textoEmpanadas;
+}
+.pruebaa{
+   height:100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548) ),
+    url(../assets/img/imagen\ pizza.jpg);
+   
+}
+.letras{
+   height:100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548) ),
+    url(../assets/img/maderaas.jpg);
+   
+}
+.letra-lista{
+   color:$color-blanco;
+}
+.color{
+   color: $color-producto2;
+}
+/*          aca sucursal*/
+.sucursales-h1{
+    text-align:$texto-centrado;
+    padding-top: 20px;
+ }
+ .sucursal-div{
+    padding-top: 10px;
+    text-align: $texto-centrado;
+ }
+ .sucursal-texto{
+    text-align: center;
+    
+  
+ .fondosucursales{
+    background-color: $background-color-sucursal;
+ }
+ .ubicacionsucursal{
+    text-align: $texto-centrado;
+ }
+ .mapa{
+    padding: 30px;
+ 
+ text-align: $texto-centrado;
+ }
+
+                     /* paginna principal asassd*/ 
+
+ .principal{
+    background-color: $color-gris;
+    display: $display-flex;
+    flex-direction: $flex-column;
+    justify-content: $justify-space-around;
+    align-items: $align-item-center;
+ }
+ .galeria{
+    width: 77%;
+    padding-bottom: 20px;
+ }
+ .carousel-item{
+    height: 100vh;
+ }
+ .carousel-item{
+    height: 100%;
+    object-fit: cover;
+ }
+ 
+ .titulo{
+    text-align: $texto-centrado;
+    background-color: $color-gris;
+    color:$color-blanco;
+    padding-top: 20px;
+ }
+ .card{
+    height: 100%;
+    width: 100%;
+ }
+  /*             aca nnosotrossss    */
+
+.principall{
+    background-color: $color-negro;
+    text-align: $texto-centrado;
+    display: $display-flex;
+    flex-direction: $flex-column;
+    justify-content: $justify-space-around;
+    align-items: $align-item-center;
+    .altonosotros{
+        height: 70vh;
+        .textonosotros{
+            height: 100%;
+         }
+     }
+     .imagennosotros{
+        height: 50%;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../assets/img/imagen\ para\ contacto.jpg);
+        margin-top: 200px;
+     }
+ }
+
+ .colornosotros{
+    background-color: $color-negro;
+ }
+ }
+
+ .error {
+   text-align: $texto-centrado;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+ }
